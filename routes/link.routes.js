@@ -8,7 +8,6 @@ const router = Router()
 
 router.post('/generate', auth, async (req, res) => {
     try {
-        console.log('kek');
         const baseUrl = config.get('baseUrl')
         const {from} = req.body
         const code = shortid.generate()
