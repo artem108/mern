@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "mongoUrl": "mongodb+srv://artem:108@cluster0.nk7n9.mongodb.net/app?retryWrites=true&w=majority",
+    "jwtSecret": "artemMern",
+    "baseUrl": "http://localhost:5000"
+}
